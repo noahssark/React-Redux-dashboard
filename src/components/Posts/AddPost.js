@@ -117,7 +117,7 @@ const AddPost = () => {
               
 
               {(props) => (
-                <Form onSubmit={handleSubmit}>
+                <Form onSubmit={props.handleSubmit}>
                   <Form.Group controlId="formBasicEmail">
                     <Form.Label>
                       Name <span className="text-danger">*</span>
